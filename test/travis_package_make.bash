@@ -1,7 +1,7 @@
 #!/bin/bash -xve
 
 #sync and make
-rsync -av ./ ~/catkin_ws/src/pimouse_ros/
+rsync -av ./ ~/catkin_ws/src/raspicat_basic/
 cd ~/catkin_ws
 catkin_make
 

@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 #encoding: utf8
 import sys, rospy, math
-from pimouse_ros.msg import MotorFreqs
+from raspicat_basic.msg import MotorFreqs
 from geometry_msgs.msg import Twist
 from std_srvs.srv import Trigger, TriggerResponse
-from pimouse_ros.srv import TimedMotion                                               #追加
+from raspicat_basic.srv import TimedMotion                                               #追加
 
 class Motor():
     def __init__(self):

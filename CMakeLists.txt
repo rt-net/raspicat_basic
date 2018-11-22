@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(pimouse_ros)
+project(raspicat_basic)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -102,7 +102,7 @@ generate_messages(
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES pimouse_ros
+#  LIBRARIES raspicat_basic
   CATKIN_DEPENDS rospy std_msgs std_srvs message_runtime
 #  DEPENDS system_lib
 )
@@ -119,24 +119,24 @@ include_directories(
 )
 
 ## Declare a C++ library
-# add_library(pimouse_ros
-#   src/${PROJECT_NAME}/pimouse_ros.cpp
+# add_library(raspicat_basic
+#   src/${PROJECT_NAME}/raspicat_basic.cpp
 # )
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
-# add_dependencies(pimouse_ros ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(raspicat_basic ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-# add_executable(pimouse_ros_node src/pimouse_ros_node.cpp)
+# add_executable(raspicat_basic_node src/raspicat_basic_node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(pimouse_ros_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(raspicat_basic_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(pimouse_ros_node
+# target_link_libraries(raspicat_basic_node
 #   ${catkin_LIBRARIES}
 # )
 
@@ -155,7 +155,7 @@ include_directories(
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS pimouse_ros pimouse_ros_node
+# install(TARGETS raspicat_basic raspicat_basic_node
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -180,7 +180,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_pimouse_ros.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_raspicat_basic.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

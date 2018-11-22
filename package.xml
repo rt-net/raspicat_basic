@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <package>
-  <name>pimouse_ros</name>
+  <name>raspicat_basic</name>
   <version>1.0.0</version>
-  <description>The pimouse_ros package</description>
+  <description>The raspicat basic package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->
-  <maintainer email="ryuichiueda@gmail.com">Ryuichi Ueda</maintainer>
+  <maintainer email="shop@rt-net.jp">RT Corporation</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
@@ -18,13 +18,17 @@
   <!-- Url tags are optional, but mutiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-  <url type="website">https://github.com/ryuichiueda/raspimouse_book_info</url>
+  <url type="website">https://wiki.ros.org/ja/raspicat</url>
+  <url type="bugtracker">https://github.com/rt-net/raspicat_basic/issues</url>
+  <url type="repository">https://github.com/rt-net/raspicat_basic</url>
 
 
   <!-- Author tags are optional, mutiple are allowed, one per tag -->
   <!-- Authors do not have to be maintianers, but could be -->
   <!-- Example: -->
   <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
+  <author email="ryuichiueda@gmail.com">Ryuichi Ueda</author>
+  <author email="tiryoh@gmail.com">Daisuke Sato</author>
 
 
   <!-- The *_depend tags are used to specify dependencies -->

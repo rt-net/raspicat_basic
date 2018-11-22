@@ -3,7 +3,7 @@
 import unittest, rostest
 import rosnode, rospy
 import time
-from pimouse_ros.msg import LightSensorValues
+from raspicat_basic.msg import LightSensorValues
         
 class LightsensorTest(unittest.TestCase):
     def setUp(self):
@@ -51,7 +51,7 @@ class LightsensorTest(unittest.TestCase):
 if __name__ == '__main__':
     time.sleep(3)
     rospy.init_node('travis_test_lightsensors')
-    rostest.rosrun('pimouse_ros','travis_test_lightsensors',LightsensorTest)
+    rostest.rosrun('raspicat_basic','travis_test_lightsensors',LightsensorTest)
 
 # Copyright 2016 Ryuichi Ueda
 # Released under the BSD License.

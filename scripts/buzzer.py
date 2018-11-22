@@ -2,7 +2,7 @@
 #encoding: utf8
 import rospy, actionlib
 from std_msgs.msg import UInt16
-from pimouse_ros.msg import MusicAction, MusicResult, MusicFeedback # 行を追加
+from raspicat_basic.msg import MusicAction, MusicResult, MusicFeedback # 行を追加
 
 def write_freq(hz=0):
     bfile = "/dev/rtbuzzer0"
