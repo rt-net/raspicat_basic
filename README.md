@@ -1,5 +1,7 @@
-[![Build Status](https://travis-ci.org/ryuichiueda/pimouse_ros.svg?branch=master)](https://travis-ci.org/ryuichiueda/pimouse_ros)
+[![Build Status](https://travis-ci.org/rt-net/raspicat_basic.svg?branch=master)](https://travis-ci.org/rt-net/raspicat_basic)
 
-# pimouse_ros
+# raspicat_basic
 
-「Raspberry Piで学ぶ ROSロボット入門」の6章から9章までのプログラムです。このリポジトリで、原稿完成後に動作検証を行いました。
+「Raspberry Piで学ぶ ROSロボット入門」の6章から9章までをRaspberry Pi Catに対応させたプログラムです。
+
+書籍を読む際、`raspicat_basic`を`raspicat_basic`に読み替えながらプログラムを書くことで本リポジトリと同じプログラムが作成できるようになります。

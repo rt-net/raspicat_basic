@@ -3,7 +3,7 @@
 import unittest, rostest
 import rosnode, rospy
 import time
-from pimouse_ros.msg import MotorFreqs
+from raspicat_basic.msg import MotorFreqs
 from geometry_msgs.msg import Twist
 from std_srvs.srv import Trigger, TriggerResponse  #追加
 
@@ -69,7 +69,7 @@ class MotorTest(unittest.TestCase):
 
 if __name__ == '__main__':
     rospy.init_node('travis_test_motors')
-    rostest.rosrun('pimouse_ros','travis_test_motors', MotorTest)
+    rostest.rosrun('raspicat_basic','travis_test_motors', MotorTest)
 
 # Copyright 2016 Ryuichi Ueda
 # Released under the BSD License.
