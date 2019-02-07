@@ -22,7 +22,7 @@
 Raspberry Pi CatはRasberry Pi Mouseとサイズが異なるため、指令された移動速度からモータへの指令を計算するためのノードに記述するパラメータが異なります。
 
 * Raspberry Pi Mouse (「[Raspberry Piで学ぶ ROSロボット入門](https://www.nikkeibp.co.jp/atclpubmkt/book/17/261040/)」のP.279参照)
-  * ホイール径: 90[mm]
+  * ホイール径: 45[mm]
   * トレッド: 90[mm]
 * Raspberry Pi Cat
   * ホイール径: 150[mm]
