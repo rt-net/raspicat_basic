@@ -16,6 +16,8 @@
   * https://github.com/rt-net/raspicat_basic/commit/aba93778b75032ed4466de39b67f967845c43456
 * TravisCIでエラーが出る問題
   * https://github.com/rt-net/raspicat_basic/commit/1b3695b4ee794ee7f0b0e05360ee09b7b94e0dfc
+* 超音波センサのsideとforwardの関係を修正およびmelodic対応
+  * https://github.com/rt-net/raspicat_basic/pull/7/files
 
 ### 固有のパラメータについて
 
