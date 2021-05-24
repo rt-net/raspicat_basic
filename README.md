@@ -16,6 +16,10 @@
   * https://github.com/rt-net/raspicat_basic/commit/aba93778b75032ed4466de39b67f967845c43456
 * TravisCIでエラーが出る問題
   * https://github.com/rt-net/raspicat_basic/commit/1b3695b4ee794ee7f0b0e05360ee09b7b94e0dfc
+* 超音波センサの対応順（sideとforwardの関係）を実機に合わせて修正
+  * https://github.com/rt-net/raspicat_basic/commit/fa8a676702a9dd204239989b4fa3f7a0d83ae6f6
+* Travis CIのMelodic対応
+  * https://github.com/rt-net/raspicat_basic/commit/1a60949090416cf54ce5c482c43611775d8ff64c
 
 ### 固有のパラメータについて
 
